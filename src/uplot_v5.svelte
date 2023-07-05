@@ -509,6 +509,7 @@ button {
         <button on:click={resetAxis}>
             <SvgIcon d={home} />
         </button>
+        <!--
         <button on:click={toggle_logy}>
             {#if logy==3}
                 <LinIcon />
@@ -516,6 +517,7 @@ button {
                 <LogIcon />
             {/if}
         </button>
+        -->
         <button on:click={saveCanvas}>
             <SvgIcon d={png} />
         </button>
